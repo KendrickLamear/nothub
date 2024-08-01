@@ -1,0 +1,1305 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Hub = Instance.new("ScreenGui")
+local Base = Instance.new("Frame")
+local Scripts = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local InfiniteYield = Instance.new("ImageButton")
+local UICorner_2 = Instance.new("UICorner")
+local Info = Instance.new("TextLabel")
+local Name = Instance.new("TextLabel")
+local AdminScripts = Instance.new("TextLabel")
+local ArsenalAimBot = Instance.new("ImageButton")
+local UICorner_3 = Instance.new("UICorner")
+local Info_2 = Instance.new("TextLabel")
+local Name_2 = Instance.new("TextLabel")
+local SBScript = Instance.new("ImageButton")
+local UICorner_4 = Instance.new("UICorner")
+local Info_3 = Instance.new("TextLabel")
+local Name_3 = Instance.new("TextLabel")
+local DexV200 = Instance.new("ImageButton")
+local UICorner_5 = Instance.new("UICorner")
+local Info_4 = Instance.new("TextLabel")
+local Name_4 = Instance.new("TextLabel")
+local EmotesUnlocked = Instance.new("ImageButton")
+local UICorner_6 = Instance.new("UICorner")
+local Info_5 = Instance.new("TextLabel")
+local Name_5 = Instance.new("TextLabel")
+local Home = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local Home_2 = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_8 = Instance.new("UICorner")
+local AccountAge = Instance.new("TextLabel")
+local Name_6 = Instance.new("TextLabel")
+local UpdateLog = Instance.new("TextLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local Update1 = Instance.new("TextLabel")
+local Update2 = Instance.new("TextLabel")
+local UserId = Instance.new("TextLabel")
+local Version = Instance.new("TextLabel")
+local FPS = Instance.new("TextLabel")
+local BHome = Instance.new("ImageButton")
+local BAdminScripts = Instance.new("ImageButton")
+local GameInfo = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local BSettings = Instance.new("ImageButton")
+local Settings = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local AdminScripts_2 = Instance.new("TextLabel")
+local Keybind = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local UICorner_11 = Instance.new("UICorner")
+local Headers = Instance.new("Folder")
+local Header = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local Header_2 = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local Exit = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Yes = Instance.new("TextButton")
+local No = Instance.new("TextButton")
+
+--Properties:
+
+Hub.Name = "Hub"
+Hub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Hub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Base.Name = "Base"
+Base.Parent = Hub
+Base.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Base.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Base.BorderSizePixel = 0
+Base.Position = UDim2.new(0.264736861, 0, 0.218292683, 0)
+Base.Size = UDim2.new(0, 899, 0, 461)
+
+Scripts.Name = "Scripts"
+Scripts.Parent = Base
+Scripts.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Scripts.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Scripts.BorderSizePixel = 0
+Scripts.Position = UDim2.new(0.13779749, 0, -0.000796237378, 0)
+Scripts.Size = UDim2.new(0, 775, 0, 461)
+Scripts.Visible = false
+
+UICorner.CornerRadius = UDim.new(0, 20)
+UICorner.Parent = Scripts
+
+InfiniteYield.Name = "Infinite Yield"
+InfiniteYield.Parent = Scripts
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+InfiniteYield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.BorderSizePixel = 0
+InfiniteYield.Position = UDim2.new(0.0649999976, 0, 0.0879999846, 0)
+InfiniteYield.Size = UDim2.new(0, 130, 0, 70)
+InfiniteYield.Image = "http://www.roblox.com/asset/?id=18741254062"
+
+UICorner_2.Parent = InfiniteYield
+
+Info.Name = "Info"
+Info.Parent = InfiniteYield
+Info.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info.BackgroundTransparency = 2.000
+Info.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Info.BorderSizePixel = 0
+Info.Position = UDim2.new(-0.235909805, 0, 0.997675896, 0)
+Info.Size = UDim2.new(0, 190, 0, 70)
+Info.Font = Enum.Font.SourceSans
+Info.Text = "A FE Script That Is Filled With Admin Commands For Everyone To See!"
+Info.TextColor3 = Color3.fromRGB(0, 0, 0)
+Info.TextScaled = true
+Info.TextSize = 50.000
+Info.TextTransparency = 1.000
+Info.TextWrapped = true
+
+Name.Name = "Name"
+Name.Parent = InfiniteYield
+Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name.BackgroundTransparency = 1.000
+Name.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Name.BorderSizePixel = 0
+Name.Position = UDim2.new(1.06408978, 0, -0.00232413155, 0)
+Name.Size = UDim2.new(0, 95, 0, 70)
+Name.Font = Enum.Font.SourceSans
+Name.Text = "IY"
+Name.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name.TextSize = 30.000
+Name.TextTransparency = 1.000
+Name.TextWrapped = true
+Name.TextXAlignment = Enum.TextXAlignment.Left
+
+AdminScripts.Name = "Admin Scripts"
+AdminScripts.Parent = Scripts
+AdminScripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AdminScripts.BackgroundTransparency = 2.000
+AdminScripts.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AdminScripts.BorderSizePixel = 0
+AdminScripts.Position = UDim2.new(0.425628453, 0, 0.926247299, 0)
+AdminScripts.Size = UDim2.new(0, 85, 0, 31)
+AdminScripts.Font = Enum.Font.SourceSans
+AdminScripts.Text = "Admin Scripts"
+AdminScripts.TextColor3 = Color3.fromRGB(0, 0, 0)
+AdminScripts.TextSize = 40.000
+
+ArsenalAimBot.Name = "Arsenal AimBot"
+ArsenalAimBot.Parent = Scripts
+ArsenalAimBot.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+ArsenalAimBot.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ArsenalAimBot.BorderSizePixel = 0
+ArsenalAimBot.Position = UDim2.new(0.0649999976, 0, 0.400364399, 0)
+ArsenalAimBot.Size = UDim2.new(0, 130, 0, 70)
+ArsenalAimBot.Image = "rbxassetid://12914967788"
+ArsenalAimBot.ScaleType = Enum.ScaleType.Fit
+
+UICorner_3.Parent = ArsenalAimBot
+
+Info_2.Name = "Info"
+Info_2.Parent = ArsenalAimBot
+Info_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info_2.BackgroundTransparency = 2.000
+Info_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Info_2.BorderSizePixel = 0
+Info_2.Position = UDim2.new(-0.235909805, 0, 0.997675896, 0)
+Info_2.Size = UDim2.new(0, 190, 0, 70)
+Info_2.Font = Enum.Font.SourceSans
+Info_2.Text = "Gun Down Your Enemies  With This Amazing Aimbot Script!!"
+Info_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Info_2.TextScaled = true
+Info_2.TextSize = 50.000
+Info_2.TextTransparency = 1.000
+Info_2.TextWrapped = true
+
+Name_2.Name = "Name"
+Name_2.Parent = ArsenalAimBot
+Name_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name_2.BackgroundTransparency = 1.000
+Name_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Name_2.BorderSizePixel = 0
+Name_2.Position = UDim2.new(1.06408978, 0, -0.00232413155, 0)
+Name_2.Size = UDim2.new(0, 95, 0, 70)
+Name_2.Font = Enum.Font.SourceSans
+Name_2.Text = "Arsenal"
+Name_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name_2.TextSize = 30.000
+Name_2.TextTransparency = 1.000
+Name_2.TextWrapped = true
+Name_2.TextXAlignment = Enum.TextXAlignment.Left
+
+SBScript.Name = "SB Script"
+SBScript.Parent = Scripts
+SBScript.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+SBScript.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SBScript.BorderSizePixel = 0
+SBScript.Position = UDim2.new(0.395322591, 0, 0.0879999846, 0)
+SBScript.Size = UDim2.new(0, 130, 0, 70)
+SBScript.Image = "rbxassetid://18627342963"
+SBScript.ScaleType = Enum.ScaleType.Fit
+
+UICorner_4.Parent = SBScript
+
+Info_3.Name = "Info"
+Info_3.Parent = SBScript
+Info_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info_3.BackgroundTransparency = 2.000
+Info_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Info_3.BorderSizePixel = 0
+Info_3.Position = UDim2.new(-0.235909805, 0, 0.997675896, 0)
+Info_3.Size = UDim2.new(0, 190, 0, 70)
+Info_3.Font = Enum.Font.SourceSans
+Info_3.Text = "Great Script For Farming And Trolling!!"
+Info_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Info_3.TextScaled = true
+Info_3.TextSize = 50.000
+Info_3.TextTransparency = 1.000
+Info_3.TextWrapped = true
+
+Name_3.Name = "Name"
+Name_3.Parent = SBScript
+Name_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name_3.BackgroundTransparency = 1.000
+Name_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Name_3.BorderSizePixel = 0
+Name_3.Position = UDim2.new(1.06408978, 0, -0.00232413155, 0)
+Name_3.Size = UDim2.new(0, 152, 0, 70)
+Name_3.Font = Enum.Font.Bangers
+Name_3.Text = "Slap Battles"
+Name_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name_3.TextSize = 30.000
+Name_3.TextTransparency = 1.000
+Name_3.TextWrapped = true
+Name_3.TextXAlignment = Enum.TextXAlignment.Left
+
+DexV200.Name = "Dex V2.0.0"
+DexV200.Parent = Scripts
+DexV200.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+DexV200.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DexV200.BorderSizePixel = 0
+DexV200.Position = UDim2.new(0.395322591, 0, 0.400364399, 0)
+DexV200.Size = UDim2.new(0, 130, 0, 70)
+DexV200.Image = "http://www.roblox.com/asset/?id=18742782554"
+DexV200.ScaleType = Enum.ScaleType.Fit
+
+UICorner_5.Parent = DexV200
+
+Info_4.Name = "Info"
+Info_4.Parent = DexV200
+Info_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info_4.BackgroundTransparency = 2.000
+Info_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Info_4.BorderSizePixel = 0
+Info_4.Position = UDim2.new(-0.235909805, 0, 0.997675896, 0)
+Info_4.Size = UDim2.new(0, 190, 0, 70)
+Info_4.Font = Enum.Font.SourceSans
+Info_4.Text = "Dig Through Any Game With Dex!"
+Info_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Info_4.TextScaled = true
+Info_4.TextSize = 50.000
+Info_4.TextTransparency = 1.000
+Info_4.TextWrapped = true
+
+Name_4.Name = "Name"
+Name_4.Parent = DexV200
+Name_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name_4.BackgroundTransparency = 1.000
+Name_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Name_4.BorderSizePixel = 0
+Name_4.Position = UDim2.new(1.06408978, 0, -0.00232413155, 0)
+Name_4.Size = UDim2.new(0, 95, 0, 70)
+Name_4.Font = Enum.Font.SourceSans
+Name_4.Text = "Dex V2.0.0"
+Name_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name_4.TextSize = 30.000
+Name_4.TextTransparency = 1.000
+Name_4.TextWrapped = true
+Name_4.TextXAlignment = Enum.TextXAlignment.Left
+
+EmotesUnlocked.Name = "Emotes Unlocked"
+EmotesUnlocked.Parent = Scripts
+EmotesUnlocked.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+EmotesUnlocked.BorderColor3 = Color3.fromRGB(0, 0, 0)
+EmotesUnlocked.BorderSizePixel = 0
+EmotesUnlocked.Position = UDim2.new(0.702419341, 0, 0.400364399, 0)
+EmotesUnlocked.Size = UDim2.new(0, 130, 0, 70)
+EmotesUnlocked.Image = "rbxassetid://14687318902"
+EmotesUnlocked.ScaleType = Enum.ScaleType.Fit
+
+UICorner_6.Parent = EmotesUnlocked
+
+Info_5.Name = "Info"
+Info_5.Parent = EmotesUnlocked
+Info_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info_5.BackgroundTransparency = 2.000
+Info_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Info_5.BorderSizePixel = 0
+Info_5.Position = UDim2.new(-0.235909805, 0, 0.997675896, 0)
+Info_5.Size = UDim2.new(0, 190, 0, 70)
+Info_5.Font = Enum.Font.SourceSans
+Info_5.Text = "Unlock All Emotes!!"
+Info_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Info_5.TextScaled = true
+Info_5.TextSize = 50.000
+Info_5.TextTransparency = 1.000
+Info_5.TextWrapped = true
+
+Name_5.Name = "Name"
+Name_5.Parent = EmotesUnlocked
+Name_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name_5.BackgroundTransparency = 1.000
+Name_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Name_5.BorderSizePixel = 0
+Name_5.Position = UDim2.new(1.06408978, 0, -0.00232413155, 0)
+Name_5.Size = UDim2.new(0, 95, 0, 70)
+Name_5.Font = Enum.Font.SourceSans
+Name_5.Text = "All Emotes Unlocked"
+Name_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name_5.TextSize = 30.000
+Name_5.TextTransparency = 1.000
+Name_5.TextWrapped = true
+Name_5.TextXAlignment = Enum.TextXAlignment.Left
+
+Home.Name = "Home"
+Home.Parent = Base
+Home.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Home.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Home.BorderSizePixel = 0
+Home.Position = UDim2.new(0.13779749, 0, -0.000796237378, 0)
+Home.Size = UDim2.new(0, 775, 0, 461)
+
+UICorner_7.CornerRadius = UDim.new(0, 20)
+UICorner_7.Parent = Home
+
+Home_2.Name = "Home"
+Home_2.Parent = Home
+Home_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Home_2.BackgroundTransparency = 2.000
+Home_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Home_2.BorderSizePixel = 0
+Home_2.Position = UDim2.new(0.45161289, 0, 0.924078107, 0)
+Home_2.Size = UDim2.new(0, 85, 0, 31)
+Home_2.Font = Enum.Font.SourceSans
+Home_2.Text = "Home"
+Home_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Home_2.TextSize = 40.000
+
+ImageLabel.Parent = Home
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ImageLabel.Position = UDim2.new(0.0655729398, 0, 0.0439837091, 0)
+ImageLabel.Size = UDim2.new(0, 98, 0, 98)
+ImageLabel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_8.CornerRadius = UDim.new(1, 0)
+UICorner_8.Parent = ImageLabel
+
+AccountAge.Name = "AccountAge"
+AccountAge.Parent = Home
+AccountAge.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AccountAge.BackgroundTransparency = 1.000
+AccountAge.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AccountAge.Position = UDim2.new(0.213649347, 0, 0.165900305, 0)
+AccountAge.Size = UDim2.new(0, 108, 0, 41)
+AccountAge.Font = Enum.Font.GothamMedium
+AccountAge.Text = "Account Age: nil"
+AccountAge.TextColor3 = Color3.fromRGB(244, 244, 244)
+AccountAge.TextSize = 13.000
+AccountAge.TextXAlignment = Enum.TextXAlignment.Left
+
+Name_6.Name = "Name"
+Name_6.Parent = Home
+Name_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name_6.BackgroundTransparency = 1.000
+Name_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Name_6.Position = UDim2.new(0.31085369, 0, 0.691042423, 0)
+Name_6.Size = UDim2.new(0, 250, 0, 50)
+Name_6.Font = Enum.Font.GothamBold
+Name_6.Text = "[LABEL]"
+Name_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name_6.TextScaled = true
+Name_6.TextSize = 14.000
+Name_6.TextWrapped = true
+
+UpdateLog.Name = "Update Log"
+UpdateLog.Parent = Home
+UpdateLog.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UpdateLog.BackgroundTransparency = 1.000
+UpdateLog.BorderColor3 = Color3.fromRGB(27, 42, 53)
+UpdateLog.Position = UDim2.new(0.837851644, 0, 0.33423835, 0)
+UpdateLog.Size = UDim2.new(0, 104, 0, 38)
+UpdateLog.Font = Enum.Font.GothamMedium
+UpdateLog.Text = "Update Log:"
+UpdateLog.TextColor3 = Color3.fromRGB(244, 244, 244)
+UpdateLog.TextSize = 15.000
+UpdateLog.TextXAlignment = Enum.TextXAlignment.Left
+
+ScrollingFrame.Parent = UpdateLog
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(-0.25, 0, 1.00000083, 0)
+ScrollingFrame.Size = UDim2.new(0, 127, 0, 192)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 3, 0)
+
+Update1.Name = "Update 1"
+Update1.Parent = ScrollingFrame
+Update1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Update1.BackgroundTransparency = 1.000
+Update1.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Update1.Position = UDim2.new(0.13333106, 0, -0.000299930573, 0)
+Update1.Size = UDim2.new(0, 94, 0, 32)
+Update1.Font = Enum.Font.GothamMedium
+Update1.Text = "- Created This Hub"
+Update1.TextColor3 = Color3.fromRGB(163, 163, 163)
+Update1.TextSize = 13.000
+Update1.TextXAlignment = Enum.TextXAlignment.Left
+
+Update2.Name = "Update 2"
+Update2.Parent = ScrollingFrame
+Update2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Update2.BackgroundTransparency = 1.000
+Update2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Update2.Position = UDim2.new(0.13333106, 0, 0.166366741, 0)
+Update2.Size = UDim2.new(0, 94, 0, 32)
+Update2.Visible = false
+Update2.Font = Enum.Font.GothamMedium
+Update2.Text = "- "
+Update2.TextColor3 = Color3.fromRGB(163, 163, 163)
+Update2.TextSize = 13.000
+Update2.TextXAlignment = Enum.TextXAlignment.Left
+
+UserId.Name = "UserId"
+UserId.Parent = Home
+UserId.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UserId.BackgroundTransparency = 1.000
+UserId.BorderColor3 = Color3.fromRGB(27, 42, 53)
+UserId.Position = UDim2.new(0.213649347, 0, 0.0840699002, 0)
+UserId.Size = UDim2.new(0, 108, 0, 49)
+UserId.Font = Enum.Font.GothamMedium
+UserId.Text = "User Id: nil"
+UserId.TextColor3 = Color3.fromRGB(244, 244, 244)
+UserId.TextSize = 13.000
+UserId.TextXAlignment = Enum.TextXAlignment.Left
+
+Version.Name = "Version"
+Version.Parent = Home
+Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version.BackgroundTransparency = 1.000
+Version.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Version.Position = UDim2.new(0.837851584, 0, 0.902172685, 0)
+Version.Size = UDim2.new(0, 91, 0, 35)
+Version.Font = Enum.Font.SourceSansBold
+Version.Text = "v1"
+Version.TextColor3 = Color3.fromRGB(57, 57, 57)
+Version.TextSize = 15.000
+Version.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+FPS.Name = "FPS"
+FPS.Parent = Base
+FPS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FPS.BackgroundTransparency = 2.000
+FPS.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FPS.BorderSizePixel = 0
+FPS.Position = UDim2.new(0.017797552, 0, 0.0433839485, 0)
+FPS.Size = UDim2.new(0, 85, 0, 31)
+FPS.Font = Enum.Font.SourceSans
+FPS.Text = "FPS:"
+FPS.TextColor3 = Color3.fromRGB(0, 0, 0)
+FPS.TextSize = 40.000
+
+BHome.Name = "BHome"
+BHome.Parent = Base
+BHome.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BHome.BackgroundTransparency = 1.000
+BHome.BorderColor3 = Color3.fromRGB(27, 42, 53)
+BHome.Position = UDim2.new(0.0390270613, 0, 0.11464534, 0)
+BHome.Size = UDim2.new(0, 45, 0, 45)
+BHome.Image = "rbxassetid://7011160755"
+
+BAdminScripts.Name = "BAdminScripts"
+BAdminScripts.Parent = Base
+BAdminScripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BAdminScripts.BackgroundTransparency = 1.000
+BAdminScripts.BorderColor3 = Color3.fromRGB(27, 42, 53)
+BAdminScripts.Position = UDim2.new(0.0380009711, 0, 0.238467664, 0)
+BAdminScripts.Size = UDim2.new(0, 45, 0, 45)
+BAdminScripts.Image = "rbxassetid://7149483987"
+
+GameInfo.Name = "GameInfo"
+GameInfo.Parent = Base
+GameInfo.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+GameInfo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GameInfo.BorderSizePixel = 0
+GameInfo.Position = UDim2.new(0.13779749, 0, -0.000796237378, 0)
+GameInfo.Size = UDim2.new(0, 775, 0, 461)
+GameInfo.Visible = false
+
+UICorner_9.CornerRadius = UDim.new(0, 20)
+UICorner_9.Parent = GameInfo
+
+BSettings.Name = "BSettings"
+BSettings.Parent = Base
+BSettings.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BSettings.BackgroundTransparency = 1.000
+BSettings.BorderColor3 = Color3.fromRGB(27, 42, 53)
+BSettings.Position = UDim2.new(0.037914712, 0, 0.828311265, 0)
+BSettings.Size = UDim2.new(0, 45, 0, 45)
+BSettings.Image = "rbxassetid://14134158045"
+
+Settings.Name = "Settings"
+Settings.Parent = Base
+Settings.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Settings.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Settings.BorderSizePixel = 0
+Settings.Position = UDim2.new(0.13779749, 0, -0.000796237378, 0)
+Settings.Size = UDim2.new(0, 775, 0, 461)
+Settings.Visible = false
+
+UICorner_10.CornerRadius = UDim.new(0, 20)
+UICorner_10.Parent = Settings
+
+AdminScripts_2.Name = "Admin Scripts"
+AdminScripts_2.Parent = Settings
+AdminScripts_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AdminScripts_2.BackgroundTransparency = 2.000
+AdminScripts_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AdminScripts_2.BorderSizePixel = 0
+AdminScripts_2.Position = UDim2.new(0.425628453, 0, 0.926247299, 0)
+AdminScripts_2.Size = UDim2.new(0, 85, 0, 31)
+AdminScripts_2.Font = Enum.Font.SourceSans
+AdminScripts_2.Text = "Admin Scripts"
+AdminScripts_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+AdminScripts_2.TextSize = 40.000
+
+Keybind.Name = "Keybind"
+Keybind.Parent = Settings
+Keybind.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Keybind.BackgroundTransparency = 2.000
+Keybind.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Keybind.BorderSizePixel = 0
+Keybind.Position = UDim2.new(0.155951053, 0, 0.130151838, 0)
+Keybind.Size = UDim2.new(0, 85, 0, 31)
+Keybind.Font = Enum.Font.SourceSans
+Keybind.Text = "Keybind Open/Close"
+Keybind.TextColor3 = Color3.fromRGB(0, 0, 0)
+Keybind.TextSize = 40.000
+
+TextBox.Parent = Keybind
+TextBox.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(2.45882344, 0, -0.322580636, 0)
+TextBox.Size = UDim2.new(0, 200, 0, 50)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextSize = 50.000
+
+UICorner_11.CornerRadius = UDim.new(0, 20)
+UICorner_11.Parent = Base
+
+Headers.Name = "Headers"
+Headers.Parent = Base
+
+Header.Name = "Header"
+Header.Parent = Headers
+Header.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Header.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Header.BorderSizePixel = 0
+Header.Position = UDim2.new(0.120000005, 3, 0.050199464, 0)
+Header.Size = UDim2.new(0, 13, 0, 427)
+
+UICorner_12.Parent = Header
+
+Header_2.Name = "Header"
+Header_2.Parent = Headers
+Header_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Header_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Header_2.BorderSizePixel = 0
+Header_2.Position = UDim2.new(0.120000072, 3, 0.0415227078, 0)
+Header_2.Size = UDim2.new(0, 786, 0, 13)
+
+UICorner_13.Parent = Header_2
+
+Close.Name = "Close"
+Close.Parent = Base
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.966000021, 0, -0.00700000022, 0)
+Close.Size = UDim2.new(0, 28, 0, 19)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "x"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 40.000
+Close.TextStrokeTransparency = 0.000
+
+Exit.Name = "Exit "
+Exit.Parent = Base
+Exit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Exit.BackgroundTransparency = 1.000
+Exit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Exit.BorderSizePixel = 0
+Exit.Position = UDim2.new(0.432703018, 0, 0.236442521, 0)
+Exit.Size = UDim2.new(0, 100, 0, 100)
+Exit.Visible = false
+
+TextLabel.Parent = Exit
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(-1.58999813, 0, -1.13, 0)
+TextLabel.Size = UDim2.new(0, 498, 0, 157)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Are You Sure You Want To Exit Out?"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 40.000
+
+Yes.Name = "Yes"
+Yes.Parent = TextLabel
+Yes.BackgroundColor3 = Color3.fromRGB(68, 255, 0)
+Yes.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Yes.BorderSizePixel = 0
+Yes.Position = UDim2.new(0, 0, 1.00636947, 0)
+Yes.Size = UDim2.new(0, 249, 0, 158)
+Yes.Font = Enum.Font.SourceSans
+Yes.Text = "Yes"
+Yes.TextColor3 = Color3.fromRGB(0, 0, 0)
+Yes.TextSize = 100.000
+
+No.Name = "No"
+No.Parent = TextLabel
+No.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+No.BorderColor3 = Color3.fromRGB(0, 0, 0)
+No.BorderSizePixel = 0
+No.Position = UDim2.new(0.5, 0, 1.00636947, 0)
+No.Size = UDim2.new(0, 249, 0, 158)
+No.Font = Enum.Font.SourceSans
+No.Text = "No"
+No.TextColor3 = Color3.fromRGB(0, 0, 0)
+No.TextSize = 100.000
+
+-- Scripts:
+
+local function GYBSCS_fake_script() -- InfiniteYield.LocalScript 
+	local script = Instance.new('LocalScript', InfiniteYield)
+
+	local imageButton = script.Parent
+	local function onButtonClicked() print("Executed Infinite Yield!!")
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+	end
+	imageButton.MouseButton1Click:Connect(onButtonClicked)
+	
+end
+coroutine.wrap(GYBSCS_fake_script)()
+local function UHQWPW_fake_script() -- InfiniteYield.InfoScript 
+	local script = Instance.new('LocalScript', InfiniteYield)
+
+	local TweenService = game:GetService("TweenService")
+	local parent = script.Parent
+	local Info = parent:WaitForChild("Info")
+	local Name = parent:WaitForChild("Name")
+	
+	-- Tween settings
+	local fadeInTweenInfo = TweenInfo.new(
+		2,  -- Duration for fade-in
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.InOut
+	)
+	
+	local fadeOutTweenInfo = TweenInfo.new(
+		1,  -- Duration for fade-out
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.InOut
+	)
+	
+	-- Create tweens
+	local fadeInInfo = TweenService:Create(Info, fadeInTweenInfo, {TextTransparency = 0})
+	local fadeOutInfo = TweenService:Create(Info, fadeOutTweenInfo, {TextTransparency = 1})
+	local fadeInName = TweenService:Create(Name, fadeInTweenInfo, {TextTransparency = 0})
+	local fadeOutName = TweenService:Create(Name, fadeOutTweenInfo, {TextTransparency = 1})
+	
+	-- Initialize TextLabel properties
+	Info.TextTransparency = 1 
+	Info.TextStrokeTransparency = 1
+	Name.TextTransparency = 1
+	Name.TextStrokeTransparency = 1
+	
+	-- Event handlers for mouse hover
+	parent.MouseEnter:Connect(function()
+		fadeInInfo:Play()
+		fadeInName:Play()
+	end)
+	
+	parent.MouseLeave:Connect(function()
+		fadeOutInfo:Play()
+		fadeOutName:Play()
+	end)
+	
+end
+coroutine.wrap(UHQWPW_fake_script)()
+local function YZMJ_fake_script() -- ArsenalAimBot.LocalScript 
+	local script = Instance.new('LocalScript', ArsenalAimBot)
+
+	local imageButton = script.Parent
+	local function onButtonClicked() print("Executed Arsenal Aimbot!!")
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/KendrickLamear/Arsenal-Aimbot/main/Aimbot",true))();
+	end
+	imageButton.MouseButton1Click:Connect(onButtonClicked)
+	
+end
+coroutine.wrap(YZMJ_fake_script)()
+local function HRYZ_fake_script() -- ArsenalAimBot.InfoScript 
+	local script = Instance.new('LocalScript', ArsenalAimBot)
+
+	local TweenService = game:GetService("TweenService")
+	local parent = script.Parent
+	local Info = parent:WaitForChild("Info")
+	local Name = parent:WaitForChild("Name")
+	
+	-- Tween settings
+	local fadeInTweenInfo = TweenInfo.new(
+		2,  -- Duration for fade-in
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.InOut
+	)
+	
+	local fadeOutTweenInfo = TweenInfo.new(
+		1,  -- Duration for fade-out
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.InOut
+	)
+	
+	-- Create tweens
+	local fadeInInfo = TweenService:Create(Info, fadeInTweenInfo, {TextTransparency = 0})
+	local fadeOutInfo = TweenService:Create(Info, fadeOutTweenInfo, {TextTransparency = 1})
+	local fadeInName = TweenService:Create(Name, fadeInTweenInfo, {TextTransparency = 0})
+	local fadeOutName = TweenService:Create(Name, fadeOutTweenInfo, {TextTransparency = 1})
+	
+	-- Initialize TextLabel properties
+	Info.TextTransparency = 1 
+	Info.TextStrokeTransparency = 1
+	Name.TextTransparency = 1
+	Name.TextStrokeTransparency = 1
+	
+	-- Event handlers for mouse hover
+	parent.MouseEnter:Connect(function()
+		fadeInInfo:Play()
+		fadeInName:Play()
+	end)
+	
+	parent.MouseLeave:Connect(function()
+		fadeOutInfo:Play()
+		fadeOutName:Play()
+	end)
+	
+end
+coroutine.wrap(HRYZ_fake_script)()
+local function PQLPD_fake_script() -- SBScript.LocalScript 
+	local script = Instance.new('LocalScript', SBScript)
+
+	local imageButton = script.Parent
+	local function onButtonClicked() print("Executed Slap Battles Script!!")
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/KykyryzoB/KykyryzoB-Hub-SB/main/KykryzoB.lua"))()
+	end
+	imageButton.MouseButton1Click:Connect(onButtonClicked)
+	
+end
+coroutine.wrap(PQLPD_fake_script)()
+local function ZLKCPB_fake_script() -- SBScript.InfoScript 
+	local script = Instance.new('LocalScript', SBScript)
+
+	local TweenService = game:GetService("TweenService")
+	local parent = script.Parent
+	local Info = parent:WaitForChild("Info")
+	local Name = parent:WaitForChild("Name")
+	
+	-- Tween settings
+	local fadeInTweenInfo = TweenInfo.new(
+		2,  -- Duration for fade-in
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.InOut
+	)
+	
+	local fadeOutTweenInfo = TweenInfo.new(
+		1,  -- Duration for fade-out
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.InOut
+	)
+	
+	-- Create tweens
+	local fadeInInfo = TweenService:Create(Info, fadeInTweenInfo, {TextTransparency = 0})
+	local fadeOutInfo = TweenService:Create(Info, fadeOutTweenInfo, {TextTransparency = 1})
+	local fadeInName = TweenService:Create(Name, fadeInTweenInfo, {TextTransparency = 0})
+	local fadeOutName = TweenService:Create(Name, fadeOutTweenInfo, {TextTransparency = 1})
+	
+	-- Initialize TextLabel properties
+	Info.TextTransparency = 1 
+	Info.TextStrokeTransparency = 1
+	Name.TextTransparency = 1
+	Name.TextStrokeTransparency = 1
+	
+	-- Event handlers for mouse hover
+	parent.MouseEnter:Connect(function()
+		fadeInInfo:Play()
+		fadeInName:Play()
+	end)
+	
+	parent.MouseLeave:Connect(function()
+		fadeOutInfo:Play()
+		fadeOutName:Play()
+	end)
+	
+end
+coroutine.wrap(ZLKCPB_fake_script)()
+local function LCJSI_fake_script() -- DexV200.LocalScript 
+	local script = Instance.new('LocalScript', DexV200)
+
+	local imageButton = script.Parent
+	local function onButtonClicked() print("Executed Dex V2.0.0!!")
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/KendrickLamear/Dex-V2.0.0/main/Dex%20V2.0.0"))()
+	end
+	imageButton.MouseButton1Click:Connect(onButtonClicked)
+	
+end
+coroutine.wrap(LCJSI_fake_script)()
+local function YDJX_fake_script() -- DexV200.InfoScript 
+	local script = Instance.new('LocalScript', DexV200)
+
+	local TweenService = game:GetService("TweenService")
+	local parent = script.Parent
+	local Info = parent:WaitForChild("Info")
+	local Name = parent:WaitForChild("Name")
+	
+	-- Tween settings
+	local fadeInTweenInfo = TweenInfo.new(
+		2,  -- Duration for fade-in
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.InOut
+	)
+	
+	local fadeOutTweenInfo = TweenInfo.new(
+		1,  -- Duration for fade-out
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.InOut
+	)
+	
+	-- Create tweens
+	local fadeInInfo = TweenService:Create(Info, fadeInTweenInfo, {TextTransparency = 0})
+	local fadeOutInfo = TweenService:Create(Info, fadeOutTweenInfo, {TextTransparency = 1})
+	local fadeInName = TweenService:Create(Name, fadeInTweenInfo, {TextTransparency = 0})
+	local fadeOutName = TweenService:Create(Name, fadeOutTweenInfo, {TextTransparency = 1})
+	
+	-- Initialize TextLabel properties
+	Info.TextTransparency = 1 
+	Info.TextStrokeTransparency = 1
+	Name.TextTransparency = 1
+	Name.TextStrokeTransparency = 1
+	
+	-- Event handlers for mouse hover
+	parent.MouseEnter:Connect(function()
+		fadeInInfo:Play()
+		fadeInName:Play()
+	end)
+	
+	parent.MouseLeave:Connect(function()
+		fadeOutInfo:Play()
+		fadeOutName:Play()
+	end)
+	
+end
+coroutine.wrap(YDJX_fake_script)()
+local function ONJZ_fake_script() -- EmotesUnlocked.LocalScript 
+	local script = Instance.new('LocalScript', EmotesUnlocked)
+
+	local imageButton = script.Parent
+	local function onButtonClicked() print("Executed All Emotes Unlocked!!")
+		-- Don't waste Robux on emotes when you can get them free :)
+	
+		--[[ How to use ]]--:
+	
+		-- Change your body type to R15 or go into an R15 game
+		-- Execute the script
+		-- Open the console or look at the list below
+		-- If you want to use an emote, type in chat: '/e [emote name]'. Example: '/e floss'
+	
+		-- This is FE, which means everybody can see it! :)
+	
+		local emotes = {
+			test = 5918726674,
+			god = 3337994105,
+			happy = 4841405708,
+			sad = 4841407203,
+			monkey = 3333499508,
+			baby = 4265725525,
+			line = 4049037604,
+			fashion = 3333331310,
+			twirl = 3334968680,
+			top = 3361276673,
+			dizzy = 3361426436,
+			shy = 3337978742,
+			side = 3333136415,
+			dorky = 4212455378,
+			robot = 3338025566,
+			shuffle = 4349242221,
+			around = 3303391864,
+			tpose = 3338010159,
+			body = 3333387824,
+			fancy = 3333432454,
+			celebrate = 3338097973,
+			idol = 4101966434,
+			hands = 4265701731,
+			haha = 3337966527,
+			curtsy = 4555816777,
+			airdance = 4555782893,
+			zombie = 4210116953,
+			tree = 4049551434,
+			swoosh = 3361481910,
+			great = 3338042785,
+			sneaky = 3334424322,
+			jacks = 3338066331,
+			getout = 3333272779,
+			fish = 3334832150,
+			loud = 3338083565,
+			ypose = 4349285876,
+			borock = 3236842542,
+			udzal = 3303161675,
+			hype = 3695333486,
+			floss = 5917459365,
+			fancy = 3333432454,
+			beckon = 5230598276,
+			tree = 4049551434,
+			bored = 5230599789,
+			cower = 4940563117,
+			applaud = 5915693819,
+			chacha = 3695322025,
+			superhero = 3695373233,
+			airguitar = 3695300085
+		}
+	
+		local active = {}
+	
+		local player = game.Players.LocalPlayer
+		chatcon = player.Chatted:Connect(function(msg)
+			msg = string.lower(msg)
+	
+			local separate = string.sub(msg,1,3)
+			if separate == "/e " then
+				local cmd = string.sub(msg,4,string.len(msg))
+	
+				if emotes[cmd] then
+					for i,v in pairs(active) do
+						v:Stop(0.1)
+						active[i] = nil
+					end
+	
+					local Anim = Instance.new("Animation")
+					Anim.AnimationId = "rbxassetid://"..emotes[cmd]
+	
+					player.Character.Animate.Disabled = true
+					local toplay = player.Character.Humanoid.Animator:LoadAnimation(Anim)
+					toplay:Play(0.1,1,1)
+	
+					active[cmd] = toplay
+					con = player.Character.Humanoid.Running:connect(function(speed)
+						if speed > 0.5 then
+							player.Character.Animate.Disabled = false
+							toplay:Stop(0.1)
+							active[cmd] = nil
+							con:Disconnect()
+						end
+					end)
+					jumpcon = player.Character.Humanoid.Jumping:connect(function()
+						player.Character.Animate.Disabled = false
+						toplay:Stop(0.1)
+						active[cmd] = nil
+						jumpcon:Disconnect()
+					end)
+				elseif cmd == "disable" then
+					for i,v in pairs(active) do
+						v:Stop(0.1)
+					end
+	
+					chatcon:Disconnect()
+				end
+			end
+		end)
+	
+		local toprint = "List of commands:\n"
+		for i,v in pairs(emotes) do
+			toprint ..= "/e ".. i.. "\n"
+		end
+		print(toprint)
+	end
+	imageButton.MouseButton1Click:Connect(onButtonClicked)
+	
+end
+coroutine.wrap(ONJZ_fake_script)()
+local function BEWSAKA_fake_script() -- EmotesUnlocked.InfoScript 
+	local script = Instance.new('LocalScript', EmotesUnlocked)
+
+	local TweenService = game:GetService("TweenService")
+	local parent = script.Parent
+	local Info = parent:WaitForChild("Info")
+	local Name = parent:WaitForChild("Name")
+	
+	-- Tween settings
+	local fadeInTweenInfo = TweenInfo.new(
+		2,  -- Duration for fade-in
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.InOut
+	)
+	
+	local fadeOutTweenInfo = TweenInfo.new(
+		1,  -- Duration for fade-out
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.InOut
+	)
+	
+	-- Create tweens
+	local fadeInInfo = TweenService:Create(Info, fadeInTweenInfo, {TextTransparency = 0})
+	local fadeOutInfo = TweenService:Create(Info, fadeOutTweenInfo, {TextTransparency = 1})
+	local fadeInName = TweenService:Create(Name, fadeInTweenInfo, {TextTransparency = 0})
+	local fadeOutName = TweenService:Create(Name, fadeOutTweenInfo, {TextTransparency = 1})
+	
+	-- Initialize TextLabel properties
+	Info.TextTransparency = 1 
+	Info.TextStrokeTransparency = 1
+	Name.TextTransparency = 1
+	Name.TextStrokeTransparency = 1
+	
+	-- Event handlers for mouse hover
+	parent.MouseEnter:Connect(function()
+		fadeInInfo:Play()
+		fadeInName:Play()
+	end)
+	
+	parent.MouseLeave:Connect(function()
+		fadeOutInfo:Play()
+		fadeOutName:Play()
+	end)
+	
+end
+coroutine.wrap(BEWSAKA_fake_script)()
+local function AALWIF_fake_script() -- ImageLabel.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel)
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	
+	local userId = player.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size150x150
+	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	local imageLabel = script.Parent
+	imageLabel.Image = content
+	imageLabel.BackgroundTransparency = 1
+	
+	
+	--[[
+	    Nothing needs to be changed here!
+	--]]
+end
+coroutine.wrap(AALWIF_fake_script)()
+local function DBLJ_fake_script() -- AccountAge.  
+	local script = Instance.new('LocalScript', AccountAge)
+
+	script.Parent.Text = "Account Age: ".. game.Players.LocalPlayer.AccountAge .." Days"
+end
+coroutine.wrap(DBLJ_fake_script)()
+local function YBUCA_fake_script() -- Name_6.NameScript 
+	local script = Instance.new('LocalScript', Name_6)
+
+	local function player()
+		local player = game.Players.LocalPlayer.Name
+		script.Parent.Text = "Welcome to ENX Hub, " ..player.. "!"
+	end
+	
+	player()
+	
+	--[[
+	You may change the "Welcome" to something else and the empty brackets can be used!
+	]]
+end
+coroutine.wrap(YBUCA_fake_script)()
+local function MQNO_fake_script() -- UserId.  
+	local script = Instance.new('LocalScript', UserId)
+
+	script.Parent.Text = "User Id: "..game.Players.LocalPlayer.UserId..""
+end
+coroutine.wrap(MQNO_fake_script)()
+local function NQRK_fake_script() -- FPS.LocalScript 
+	local script = Instance.new('LocalScript', FPS)
+
+	local RunService = game:GetService("RunService")
+	local TextLabel = script.Parent
+	
+	local lastUpdate = tick()
+	local frames = 0
+	
+	RunService.RenderStepped:Connect(function()
+		frames = frames + 1
+		local currentTime = tick()
+		if currentTime - lastUpdate >= 1 then
+			local fps = frames / (currentTime - lastUpdate)
+			TextLabel.Text = "FPS: " .. math.floor(fps)
+			frames = 0
+			lastUpdate = currentTime
+		end
+	end)
+	
+end
+coroutine.wrap(NQRK_fake_script)()
+local function HWQSH_fake_script() -- BHome.LocalScript 
+	local script = Instance.new('LocalScript', BHome)
+
+	local Home = script.Parent.Parent.Home
+	local AdminScripts = script.Parent.Parent.Scripts
+	--local GameInformation = script.Parent.Parent.Parent.Page.GameInformation
+	--local Players = script.Parent.Parent.Parent.Page.Players
+	local Settings = script.Parent.Parent.Settings
+	--local Info = script.Parent.Parent.Parent.Page.Info
+	
+	script.Parent.MouseButton1Click:Connect(function()
+	--	script.Parent.Sound:Play()
+		Home.Visible = true
+		AdminScripts.Visible = false
+	--	GameInformation.Visible = false
+	--	Players.Visible = false
+		Settings.Visible = false
+	--	Info.Visible = false
+	end)
+	
+	
+	
+	
+	
+	
+	--	Settings.Visible = false
+	
+	--local Settings = script.Parent.Parent.Parent.Page.Settings
+end
+coroutine.wrap(HWQSH_fake_script)()
+local function QXOYP_fake_script() -- BAdminScripts.LocalScript 
+	local script = Instance.new('LocalScript', BAdminScripts)
+
+	local Home = script.Parent.Parent.Home
+	local Scripts = script.Parent.Parent.Scripts
+	--local GameInformation = script.Parent.Parent.Parent.Page.GameInformation
+	--local Players = script.Parent.Parent.Parent.Page.Players
+	local Settings = script.Parent.Parent.Settings
+	--local Info = script.Parent.Parent.Parent.Page.Info
+	
+	script.Parent.MouseButton1Click:Connect(function()
+	--	script.Parent.Sound:Play()
+		Home.Visible = false
+		Scripts.Visible = true
+		--	GameInformation.Visible = false
+		--	Players.Visible = false
+		Settings.Visible = false
+		--	Info.Visible = false
+	end)
+	
+	
+	
+	
+	
+	
+	--	Settings.Visible = false
+	
+	--local Settings = script.Parent.Parent.Parent.Page.Settings
+end
+coroutine.wrap(QXOYP_fake_script)()
+local function TGKR_fake_script() -- BSettings.LocalScript 
+	local script = Instance.new('LocalScript', BSettings)
+
+	local Home = script.Parent.Parent.Home
+	local AdminScripts = script.Parent.Parent.Scripts
+	--local GameInformation = script.Parent.Parent.Parent.Page.GameInformation
+	--local Players = script.Parent.Parent.Parent.Page.Players
+	local Settings = script.Parent.Parent.Settings
+	--local Info = script.Parent.Parent.Parent.Page.Info
+	
+	script.Parent.MouseButton1Click:Connect(function()
+	--	script.Parent.Sound:Play()
+		Home.Visible = false
+		AdminScripts.Visible = false
+	--	GameInformation.Visible = false
+	--	Players.Visible = false
+		Settings.Visible = true
+	--	Info.Visible = false
+	end)
+	
+	
+	
+	
+	
+	
+	--	Settings.Visible = false
+	
+	--local Settings = script.Parent.Parent.Parent.Page.Settings
+end
+coroutine.wrap(TGKR_fake_script)()
+local function FDFVSGS_fake_script() -- Base.Keybind 
+	local script = Instance.new('LocalScript', Base)
+
+	local frame = script.Parent.Parent.Base
+	local hotkey = Enum.KeyCode.Minus
+	
+	local UIS = game:GetService("UserInputService")
+	local open = false
+	
+	UIS.InputBegan:Connect(function(key, gp)
+		if key.KeyCode == hotkey then
+			if UIS:GetFocusedTextBox() == nil then
+				if open == false then
+					open = true 
+					frame.Visible = open
+				elseif open == true then
+					open = false
+					frame.Visible = open
+				end
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(FDFVSGS_fake_script)()
+local function LUWV_fake_script() -- Base.Dragify 
+	local script = Instance.new('LocalScript', Base)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+		dragToggle = nil
+		dragSpeed = 0.15
+		dragInput = nil
+		dragStart = nil
+		dragPos = nil
+		function updateInput(input)
+			Delta = input.Position - dragStart
+			Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+			game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.15), {Position = Position}):Play()
+		end
+		Frame.InputBegan:Connect(function(input)
+			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+				dragToggle = true
+				dragStart = input.Position
+				startPos = Frame.Position
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragToggle = false
+					end
+				end)
+			end
+		end)
+		Frame.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				dragInput = input
+			end
+		end)
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if input == dragInput and dragToggle then
+				updateInput(input)
+			end
+		end)
+	end
+	dragify(script.Parent)
+	
+end
+coroutine.wrap(LUWV_fake_script)()
+local function XLTKCVI_fake_script() -- Hub.Exit Close 
+	local script = Instance.new('LocalScript', Hub)
+
+	local textButton = script.Parent.Base.Close
+	local exitFrame = script.Parent.Base["Exit "]
+	local yesButton = exitFrame.TextLabel.Yes
+	local noButton = exitFrame.TextLabel.No
+	
+	exitFrame.Visible = false
+	
+	local function showExitFrame()
+		exitFrame.Visible = true
+	end
+	
+	local function onYesClicked()
+		script.Parent.Parent:Destroy()
+	end
+	
+	local function onNoClicked()
+		exitFrame.Visible = false
+	end
+	
+	textButton.MouseButton1Click:Connect(showExitFrame)
+	yesButton.MouseButton1Click:Connect(onYesClicked)
+	noButton.MouseButton1Click:Connect(onNoClicked)
+	
+end
+coroutine.wrap(XLTKCVI_fake_script)()
